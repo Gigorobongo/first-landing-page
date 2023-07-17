@@ -170,3 +170,12 @@ h1 {
     font-weight: bold;
     margin-top: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 50px;
+}
