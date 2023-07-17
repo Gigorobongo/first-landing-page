@@ -11,20 +11,22 @@
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 30px 300px 30px 300px;
     gap: 380px;
+    padding-top: 10px;
 }
 
 .header ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;  
 }
 
 .header-logo {
     font-weight: bold;
     font-size: 24px;
-    color: #F9FAF8;    
+    color: #F9FAF8; 
+    flex-wrap: wrap; 
 }
 
 .header ul li a {
@@ -114,6 +116,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding: 100px;
+    flex-wrap: wrap;
     
 }
 
@@ -128,6 +131,7 @@ h1 {
 .quote-author {
     align-self: flex-end;
     font-weight: bold;
+    flex-wrap: wrap;
 }
 
 .quote-container {
